@@ -1,0 +1,14 @@
+INTRO TO BUILDING APIs 
+APIs allow one to grealty increase functionality without having to rebuild facebook or google maps on your own.
+
+apis are meant to provide a means of communication between machines we dont need to get too fussy with appearances.
+Flask is a microframwork , does not include too man y requirests for your frontend or backend one can quicly expose a database ressource on the internet with minimalconfiguaraion.
+
+flask also makes it easy to specify whihc HTTP method each resousrce receives/ accepts
+if you wnat a page to be readable and not modifiable, you can specify that the only accpetable method is GET.
+If you want to make a resousce modifiable but not removable, you can specify that it does not accept DELETE requests.
+
+objectives 
+    1. Configure and API that accepts GET requests 
+    2. Add resource that acceots HTTP requests
+    3. bULDS A CHATBOX USING fLASK API backend and a React frontend.
